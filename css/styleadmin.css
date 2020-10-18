@@ -1,0 +1,64 @@
+/* Mengatur desain Header */
+header{
+    background-color: salmon;
+    color: white;
+    padding: 15px 20px;
+    font-size: 20px
+}
+/* Mengatur lebar menu 20% dengan background color */
+.aside{
+    width: 20%;
+    background: #222;
+    float: left;
+}
+
+/* Mengatur lebar konten utama 80% dengan background putih */
+.main{
+    width: 90%;
+    background: #000;
+    min-height: 530px;
+    padding: 15 20
+}
+.container{
+    margin: 0;
+    padding: 0
+}
+
+/* Mengatur layout pada layar kecil (Responsive) */
+@media (max-width: 700px){
+    .container{
+        /* flex-direction: column; */
+    }
+}
+
+/* Navigasi */
+.menu{
+    padding: 0;
+}
+
+/* Menambah border bawah tag <li> */
+.menu li{
+    border-bottom: 1px dotted #444;
+    list-style: none
+}
+
+/* Mengatur desain menu yang dibuat dengan tag a */
+.menu a{
+    display: block;
+    padding: 20 20;
+    list-style: none;
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Mengganti background menu ketika ditunjuk mouse */
+.menu:hover a{
+    background: #000;
+}
+.pencarian{
+    margin-top: 30px;
+    margin-bottom: 20px
+}
+.tambah{
+    margin-left: 17px
+}

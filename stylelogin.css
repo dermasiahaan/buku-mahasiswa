@@ -1,0 +1,84 @@
+body{
+	background-color: white;
+	background-image: url(gbr9.jpg);
+	margin-right: 50px;
+	background-repeat: no-repeat;
+
+
+
+}
+#form{
+	
+	width: 300px;
+	height: 340px;
+	border: 1px solid;
+	margin: 130px 510px;
+	padding: 10px 10px 10px 10px;
+	border-radius: 30px;
+	box-shadow: 3px 5px 10px rgba(0,0,0,0.65);
+}
+#tulisan{
+	color: white;
+	border:none;
+	background-color: black;
+	font-family: monospace;
+	text-align: center;
+	padding: 10px 20px;
+	border-radius: 10px;
+	/*text-decoration: underline;
+	*/
+}
+ 
+ #username{
+	margin-bottom: 10px;
+	width: 270px;
+	height: 20px;
+	background:lightblue ;
+	color: black;
+	border: 1px solid;
+	outline: none;
+	padding-top: 5px;
+	font-size: 15px;
+
+
+
+}
+#password{
+
+	width: 270px;
+	height: 20px;
+	color: black;
+	border: 1px solid;
+	outline: none;
+	padding-top: 5px;
+	font-size: 15px;
+	background: lightblue; */ */
+
+
+}
+#name{
+	color: white;
+	font-family: sans-serif;
+
+}
+#tombol_login{
+	background: black;
+	margin-left: 50px;
+	margin-top: 15px;
+	color: white;
+	width: 200px;
+	border: none;
+	border-radius: 30px;
+	padding: 10px 20px;
+}
+#link{
+	background:black;
+	color: white;
+	font-size: 14px;
+	border:none;
+	border-radius: 30px;
+	padding: 10px 20px;
+	font-family: sans-serif;
+	text-decoration: none;
+
+}
